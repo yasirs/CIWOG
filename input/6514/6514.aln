@@ -1,0 +1,101 @@
+MUSCLE (3.7) multiple sequence alignment
+
+
+OS|43296|annotation|LOC_Os05g46270.1               MGI----KGLTKLLADNAPKAMKEQKFESYFGRRIAVDASMSIYQFLIVVGRTGMETLTN
+SB|44429|annotation|Sb09g026950.1                  MGI----KGLTKLLADNAPKAMKEQKFESYFGRKIAIDASMSIYQFLIVVGRTGMETLTN
+AT|36957|annotation|AT5G26680.1                    MGI----KGLTKLLADNAPSCMKEQKFESYFGRKIAVDASMSIYQFLIVVGRTGTEMLTN
+MT|4081|annotation|AC148406_28                     MGI----KGLTKLLADNAPKSMKENKFESYFGRKIAVDASMSIYQFLIVVGRSGTEMLTN
+PT|26690|annotation|gw1.XIII.413.1                 ---------------------MKEQKFESYFGRKIAIDASMSIYQFLIVVGRSGTEMLTN
+GM163|202|annotation|Gm0001x00295                  MGI----KGLTKLLADNAPKSMKENKFESYFGRKIAIDASMSIYQFLIVVGRSGTEMLTN
+VV|26092|annotation|GSVIVT00022496001              MSIYDASSGLTKLLADNAPKAMKEQKFESFFGRKIAIDASMSIYQFLIVVGRSGTEMLTN
+PP|46927|annotation|estExt_gwp_gw1.C_4560015       MGI----KGLTKLLADNAPDSMKEQKFESYFGRKIAIDASMSIYSFLVVVGRTGTDMLTN
+PP|12296|annotation|estExt_Genewise1.C_390089      MGI----KGLTKLIADNAHGAVKEQKFENYFGRKIAIDASMSIYQFLIVVGRSGSELLTN
+                                                                        :**:***.:***.**:*******.**:****:* : ***
+
+OS|43296|annotation|LOC_Os05g46270.1               EAGEVTSHLQGMFNRTIRLLEAGIKPVYVFDGKPPDLKKQELAKRYSKREDATKELTEAV
+SB|44429|annotation|Sb09g026950.1                  EAGEVTSHLQGMFNRTIRLLEAGIKPVYVFDGKPPDMKKEELAKRFSKREDATNDLKEAV
+AT|36957|annotation|AT5G26680.1                    EAGEVTSHLQGMFNRTIRLLEAGIKPVYVFDGKPPELKRQELAKRYSKRADATADLTGAI
+MT|4081|annotation|AC148406_28                     EAGEVTSHLQGMFARTIRLLEAGMKPVYVFDGKPPEMKNQELKKRLSKRAEATAGLTEAL
+PT|26690|annotation|gw1.XIII.413.1                 EAGEVTSHLQGMFNRTIRLLEAGIKPLYVFDGKPPDLKKQELAKRYSKRADATEDLAAAV
+GM163|202|annotation|Gm0001x00295                  EAGEVTSHLQGMFSRTIRLLEAGIKPVYVFDGKPPDLKKQELAKRYSKRAEATEDLSEAL
+VV|26092|annotation|GSVIVT00022496001              EAGEVTSHLQGMFSRTIRLLEAGLKPVYVFDGKPPDLKKQELAKRFSRRADATEDLTEAL
+PP|46927|annotation|estExt_gwp_gw1.C_4560015       DAGEVTSHLIGMFNRTIRVLEAGLKPVYVFDGKPPEMKGGELAKRLARREEAVESLATAK
+PP|12296|annotation|estExt_Genewise1.C_390089      DAGEVTSHLQGMFNRTIRVLEAGLKPVYVFDGQPPDLKKRELAKRFARREDAAEDLVTAK
+                                                   :******** *** ****:****:**:*****:**::*  ** ** :.* :*.  *  * 
+
+OS|43296|annotation|LOC_Os05g46270.1               EEGDKDAIEKFSKRTVKVTKQHNEECKRLLRLMGVPVVEAPCEAEAECAALCINDM----
+SB|44429|annotation|Sb09g026950.1                  EAGDKDAVEKLSKRTVKVTAQHNDDCKRLLRLMGVPVVEAPSEAEAECAALCKNDK----
+AT|36957|annotation|AT5G26680.1                    EAGNKEDIEKYSKRTVKVTKQHNDDCKRLLRLMGVPVVEATSEAEAQCAALCKSGK----
+MT|4081|annotation|AC148406_28                     EADNKEDIEKFSKRTVKVTKQHNDDCKRLLRLMGVPVVEAPSEAEAQCAALCKAGKASSN
+PT|26690|annotation|gw1.XIII.413.1                 ESGVKEDIEKFSKRTVKVTKQHNDDCKRLLKLMGVPVIEAPSEAEAQCATLCKSGK----
+GM163|202|annotation|Gm0001x00295                  ETANKEDIEKFSKRTVKVTKQHNDDCKRLLRLMGVPVVEAPSEAEAQCAALCKAGKASSY
+VV|26092|annotation|GSVIVT00022496001              ETGNKEEIEKFSKRTVKVTKQHNEDCKKLLRLMGVPVIEAPSEAEAQCAALCKSGK----
+PP|46927|annotation|estExt_gwp_gw1.C_4560015       LEGNEADMEKYSKRTVKVTKQHNEDCRKLLRLMGVPVVEAPSEAEAECASLCKTGK----
+PP|12296|annotation|estExt_Genewise1.C_390089      ETGNEADVEKYSKKTVKVTKQHNEDCRKLLRLMGVPVVEAPSEAEAECASLCKAEK----
+                                                       :  :** **.***** ***::*..**.******:**..****:**:**        
+
+OS|43296|annotation|LOC_Os05g46270.1               ---VYAVASEDMDSLTFGAPRFLRHLMDPSSKKIPVMEFEVAKVLEELELTMDQFIDLCI
+SB|44429|annotation|Sb09g026950.1                  ---VFAVASEDMDSLTFGAPRFLRHLMDPSSKKIPVMEFDVAKVLEELELTMDQFIDLCI
+AT|36957|annotation|AT5G26680.1                    ---VYGVASEDMDSLTFGAPKFLRHLMDPSSRKIPVMEFEVAKILEELQLTMDQFIDLCI
+MT|4081|annotation|AC148406_28                     LLRVYAVASEDMDSLTFGAPKFLRHLMDPSSKKIPVMEFDVAKILEELDLTMDQFIDLCI
+PT|26690|annotation|gw1.XIII.413.1                 --------------------ASLR------------------------------------
+GM163|202|annotation|Gm0001x00295                  LLCVYAVASEDMDSLTFGSPKFLRHLMDPSSKKIPVMEFEVAKILEELNMTMDQFIDLCI
+VV|26092|annotation|GSVIVT00022496001              ---VYAVASEDMDSLTFGAPKFLRHLMDPSSRKIPVMEFDITKILEELNLTMDQFIDLCI
+PP|46927|annotation|estExt_gwp_gw1.C_4560015       ---VYAVASEDMDSLTFGSTRFLRHLMEPVSRKLPVMEFDMNKVLEGLSLTMDQFVDLCI
+PP|12296|annotation|estExt_Genewise1.C_390089      ---VFAVASEDMDSLTYGSTRFLRHLMEPTSRKLPVLEFDIAKVLEGLGLNMDQFVDLCI
+                                                                         **                                    
+
+OS|43296|annotation|LOC_Os05g46270.1               LSGCDYCDSIKGIGGQTALKLIRQHGSIESILENINKDRYQIPEDWPYQEARRLFKEPNV
+SB|44429|annotation|Sb09g026950.1                  LCGCDYCDSIKGIGGQTALKLIRQHGSIESILENLNKDRYQIPEDWPYQEARRLFKEPNV
+AT|36957|annotation|AT5G26680.1                    LSGCDYCDSIRGIGGQTALKLIRQHGSIETILENLNKERYQIPEEWPYNEARKLFKEPDV
+MT|4081|annotation|AC148406_28                     LSGCDYCDNIRGIGGMTALKLIRQHGSIEKILENISKERYQVPDDWPYQEARRLFKEPEV
+PT|26690|annotation|gw1.XIII.413.1                 ---CGF------------------------------------------------------
+GM163|202|annotation|Gm0001x00295                  LSGCDYCDSIRGIGGLTALKLIRQHGSIENILENLNKERYQIPDNWPYQEARRLFKEPMV
+VV|26092|annotation|GSVIVT00022496001              LSGCDYCDSIRGIGGQTALKLIRQHGSIENILENINRERYQIPDDWPYQEARRLFKEPQV
+PP|46927|annotation|estExt_gwp_gw1.C_4560015       LCGCDYIDTIRGIGAQTALKLIRQHGSLEKILENLNKDRYQIPDPWPYEEARRLFKEPLV
+PP|12296|annotation|estExt_Genewise1.C_390089      LCGCDYCDTIRGIGPQTALKMIRQHGSLEIVLENLNKDRYQVPDPWPYQEARRLFKEPLV
+                                                      *.:                                                      
+
+OS|43296|annotation|LOC_Os05g46270.1               TLD--IPELKWNAPDEEGLVEFLVKENGFNQDRVTKAIEKIKFAKNKSSQGR--------
+SB|44429|annotation|Sb09g026950.1                  TLD--VPELKWTPPDEEGLISFLVKDNGFNEDRVTKAIEKIKSAKNKSSQGRLESFFKPV
+AT|36957|annotation|AT5G26680.1                    ITDEEQLDIKWTSPDEEGIVQFLVNENGFNIDRVTKAIEKIKTAKNKSSQGRLESFFKPV
+MT|4081|annotation|AC148406_28                     STDDEVLNLKWSPPDEEGLITFLVNENGFNSDRVTKAIEKIKAAKNKSSQGRLESFFKPT
+PT|26690|annotation|gw1.XIII.413.1                 ------------------------------------------------------------
+GM163|202|annotation|Gm0001x00295                  ITDEKELDIKWSSPDEEGLITFLVNENGFNSDRVTKAIEKIKVAKNKSSQGRLESFFKPT
+VV|26092|annotation|GSVIVT00022496001              FSDDEQLDIKWSAPDEEGLITFLVNENGFNSDRVTKA-----------------------
+PP|46927|annotation|estExt_gwp_gw1.C_4560015       TQAEDVPDFKWTAPDAEGLIKFLVEENGFNHDRVQTAIKKIQLAKNKSSQGRFVNCLCRL
+PP|12296|annotation|estExt_Genewise1.C_390089      TPPEKVPEFKWTAPDTEGLRQLLVEENGFNNDRVMKAIEKLKVAKNKASQGRLESFFGVS
+                                                                                                  
+
+OS|43296|annotation|LOC_Os05g46270.1               ------------------------------------------------------------
+SB|44429|annotation|Sb09g026950.1                  ATTSAPLKRKETSD----------------------------------------------
+AT|36957|annotation|AT5G26680.1                    ANSSVPAKRKGNLICLVASEVIPNILDHRVPNACSGSINQPSAIKSPLCMLLDGTPPITL
+MT|4081|annotation|AC148406_28                     ANPSVPIKRKESKCVLRSFKP---------------------------------------
+PT|26690|annotation|gw1.XIII.413.1                 ------------------------------------------------------------
+GM163|202|annotation|Gm0001x00295                  VNPSVPIKRKET------------------------------------------------
+VV|26092|annotation|GSVIVT00022496001              ------------------------------------------------------------
+PP|46927|annotation|estExt_gwp_gw1.C_4560015       ------------------------------------------------------------
+PP|12296|annotation|estExt_Genewise1.C_390089      SSSSNKRKEAPDSEASAGKQV---------------------------------------
+                                                                                                  
+
+OS|43296|annotation|LOC_Os05g46270.1               ------------------------------------------------------------
+SB|44429|annotation|Sb09g026950.1                  -----------------------KTSKAAAANKKTKAGGKKK------------------
+AT|36957|annotation|AT5G26680.1                    LALGCSLYPGLPTFRFTWLEEIPESTTKGAANKKTKGAGGRKKK----------------
+MT|4081|annotation|AC148406_28                     -------------------ATDHKMSSLRISNQSRSMVFGQLSMPIYGLYSKLSVPLSRN
+PT|26690|annotation|gw1.XIII.413.1                 ------------------------------------------------------------
+GM163|202|annotation|Gm0001x00295                  -----------------------PVNNAKETNKKTKAGGGKKKK----------------
+VV|26092|annotation|GSVIVT00022496001              ------------------------------------------------------------
+PP|46927|annotation|estExt_gwp_gw1.C_4560015       ------------------------------------------------------------
+PP|12296|annotation|estExt_Genewise1.C_390089      -------------------KTAAAVKPAKAASKKGPAKGGKKK-----------------
+                                                                                                  
+
+OS|43296|annotation|LOC_Os05g46270.1               -----
+SB|44429|annotation|Sb09g026950.1                  -----
+AT|36957|annotation|AT5G26680.1                    -----
+MT|4081|annotation|AC148406_28                     VCFGA
+PT|26690|annotation|gw1.XIII.413.1                 -----
+GM163|202|annotation|Gm0001x00295                  -----
+VV|26092|annotation|GSVIVT00022496001              -----
+PP|46927|annotation|estExt_gwp_gw1.C_4560015       -----
+PP|12296|annotation|estExt_Genewise1.C_390089      -----
+                                           

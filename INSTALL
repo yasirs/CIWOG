@@ -1,0 +1,179 @@
+CIWOG DOCUMENTATION
+Date: 6/11/09
+
+UPDATES
+-------
+8/28/09 - Added U12 Weight Matrix Scoring Procedure
+
+
+
+REQUIREMENTS
+------------
+
+The following are required for a full CIWOG installation with the included 
+template data.
+
+1. Apache web server
+- http://www.apache.org
+- minimum version tested 2.0.49
+
+2. Perl
+- minimum version tested 5.8.8
+		
+3. Perl Modules.  
+- Some of these modules are included in linux installations.  
+        - quick check to see if you have the module installed
+	% perl -e "use xxx;"
+	- if the response is 'Cant locate XXX in @INC ....' then you
+	need to install this module
+- All of the can be obtained from http://www.cpan.org or using the cpan shell:
+	% cpan
+	cpan> install xxx  
+
+	where xxx is one of the following:
+
+	a. CGI 
+
+	b. DBI
+
+	c. GD
+		- GD has several prerequisites.  
+		- It is recommended to install GD according to 
+		the README at http://search.cpan.org/dist/GD/.
+				
+	d. GD::Text::Align
+
+4. Mysql
+	- http://www.mysql.com
+	- minimum version tested 4.1.9
+
+
+CIWOG INSTALLATION
+-------------------
+CIWOG is a collection of perl scripts, which detect common introns, provide web interfaces and 
+database interaction, and javascript/html files.
+CIWOG has the following directories:
+	conf
+	cgi
+	html
+	scripts
+	input
+	output
+
+
+The cgi directory needs to be handled as CGI scripts by your apache 
+webserver.  The html directory needs to be handled as static files by 
+your apache webserver.  One way to achieve this is to edit your apache 
+configuration file.  This method will be described below. (Alternatively, one 
+could move the directories into the default CGI and html directories on your 
+machine.)
+
+
+0.  Confirm you have the requirements listed in the requirements section.
+
+1. cd to the directory where you would like to install CIWOG.
+
+	% cd /
+or
+	% cd /usr/local/src
+
+2. unpack the archive:
+
+	% tar -zxvf ciwog.tgz
+
+3. Change ownership of tmp directory to apache.  This directory will contain 
+evidence plot images of the Annotation Tool.
+	
+	% mkdir ciwog/html/tmp
+	% chown apache ciwog/html/tmp
+
+4. Edit the apache configuration file.
+
+	Append the following to your httpd.conf file (this is often located at 
+/etc/httpd/conf/httpd.conf):
+
+
+ # CIWOG
+  Alias /ciwog "/ciwog/html/"
+  ScriptAlias /ciwog-cgi "/ciwog/cgi/"
+  <LocationMatch "/ciwog-cgi">
+      SetEnv PERL5LIB .:/ciwog/conf:/ciwog/cgi
+  </LocationMatch>
+
+
+Note:
+The aliases can be prefixed with an additional path for the URL or for the 
+local CIWOG directory on your machine.  This readme presents an example for a 
+directory installed at /ciwog/ on your machine, that is accessed with URLs of 
+the form http://localhost/CIWOG.  You can change either of these paths to your 
+liking.
+
+For example, if CIWOG was located at /usr/local/src/ the apache configuration 
+file would be:
+ # CIWOG
+  Alias /ciwog "/usr/local/src/ciwog/html/"
+  ScriptAlias /ciwog-cgi "/usr/local/src/CIWOG/cgi/"
+  <LocationMatch "/ciwog-cgi">
+      SetEnv PERL5LIB .:/usr/local/src/ciwog/conf:/usr/local/src/ciwog/scripts
+  </LocationMatch>
+
+
+DATABASE SETUP
+--------------------------------
+CIWOG stores annotation and user information in a MySQL database.
+This procedure describes how to set up this database.  
+
+
+1. Create database. (You will probably need to be root.)
+	% mysql -u root -p
+	mysql> create database ciwog;
+
+2. Add a user with full priveledges to the database. This can be 'ciwogUser' 
+or something different.
+
+	mysql> grant all on ciwog.* to ciwogUser@localhost;
+	mysql> exit;
+
+3. Load the CIWOG schema.
+	% mysql -u root -p ciwog < ciwog/ciwog.sql
+
+
+
+
+
+CONFIGURING CIWOG
+------------------
+The conf directory contains the configuration file for CIWOG.  
+An functional example file is given as conf/conf.pl.
+This file is required for ciwog functionality.  This file contains
+directory paths for ciwog input and database connectivity.
+This file contains labels for each variable.  If you have followed
+this INSTALL documentation, no edits to this file are necessary.
+
+
+PROCESS DATA
+------------
+1. Optionally, populate the input directory with a directory for each
+ gene cluster.  Within the directory, name the gene information file 
+with the cluster's  name and name the protein alignment cluster.aln
+This software comes with two example clusters and if you do not want 
+to use your own data, then you do not need to edit anything.
+
+
+2. Optionally, edit the CIDA options (maxSlide, maxGap, simRegion,
+ minSim, minAbsentSim) in the file scripts/run_ciwog.pl  These options
+are set to the loose version as described in the manuscript.  See the
+manuscript for further details.
+
+3. Run CIWOG
+perl -I../conf run_ciwog.pl
+
+
+VIEW YOUR DATA WITH CIWOG WEB DISPLAYS
+--------------
+Using a web browser, go to: http://localhost/ciwog-cgi/home.pl.
+
+
+
+copyright 6/2009. Matt Wilkerson
+
